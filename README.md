@@ -14,3 +14,6 @@ Template repository, mostly for personal use. Scaffolds a React/Redux app with T
  2. Clone your new repository, and run `npm install`
  3. Get building!
  
+### Run the App (Development)
+`npm start`
+ 
