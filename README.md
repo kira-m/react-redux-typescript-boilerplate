@@ -1,4 +1,4 @@
-# react-tailwind-webpack-boilerplate
+# react-redux-typescript-boilerplate
 Template repository, mostly for personal use. Scaffolds a React/Redux app with Typescript & TailwindCSS support.
 
 ### Features 
