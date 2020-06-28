@@ -1,5 +1,5 @@
 # react-tailwind-webpack-boilerplate
-Template repository, mostly for personal use. 
+Template repository, mostly for personal use. Scaffolds a React/Redux app with TailwindCSS support.
 
 ### Features 
 
