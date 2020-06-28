@@ -1,0 +1,54 @@
+{
+  "name": "react-tailwind-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate template for react, redux, tailwind and webpack",
+  "main": "index.js",
+  "scripts": {
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "webpack --progress --colors --mode=production",
+    "start": "webpack-dev-server --progress --colors --open --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kira-m/react-tailwind-webpack-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kira-m/react-tailwind-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kira-m/react-tailwind-webpack-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "7.9.5",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/classnames": "^2.2.10",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.2",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^1.4.6",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
